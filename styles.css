@@ -1,12 +1,59 @@
+@import url(https://cdn.jsdelivr.net/gh/tonsky/FiraCode@4/distr/fira_code.css);
+
+@font-face {
+    font-family: "Fira Code Nerd Font";
+    font-style: normal;
+    font-weight: 200;
+    src: url('https://github.com/ryanoasis/nerd-fonts/raw/master/patched-fonts/FiraCode/Light/complete/Fura%20Code%20Light%20Nerd%20Font%20Complete.ttf') format('truetype');
+    font-variant-ligatures: none;
+  }
+
 body {
     margin: 0;
-    text-align: center;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0)), url(./imgs/abstract05.jpg);
+    height: 100vh;
+    background-size:cover;
+    background-position: center;
 }
 
-#contact {
-    font-size: 23;
+h1 {
+    text-align: center;
+    font-family: 'Fira Code', monospace;
+    color: #F1F1F1;
+    font-size: 45px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.codeblock {
+    background-color:black;
+}
+
+code {
+    text-align:left;
+}
+
+.contact {
+    padding-left: 50vh;
+    font-family: 'Fira Code', monospace;
+    font-size: 22px;
+    font-weight: 400;
+    color: #F1F1F1;
+}
+
+.ext_links {
+    padding-left: 75vh;
+    font-family: 'Fira Code', monospace;
+    font-size: 22px;
+    font-weight: 400;
+    color: #F1F1F1;
+}
+
+#email {
+    font-size: 18px;
 }
 
 #resume {
     padding-top: 50px;
+    padding-right: 30px;
 }
