@@ -1,5 +1,12 @@
 body {
     margin: 0;
-    background: pink;
     text-align: center;
+}
+
+#contact {
+    font-size: 23;
+}
+
+#resume {
+    padding-top: 50px;
 }
