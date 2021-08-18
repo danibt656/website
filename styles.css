@@ -29,10 +29,12 @@ h1 {
     padding-bottom: 50px;
 }
 
+/*
+    Typing animation
+*/
 .dynamic_name span{
     position: relative;
 }
-
 .dynamic_name span::after {
     content: "";
     position: absolute;
@@ -40,9 +42,8 @@ h1 {
     height: 100%;
     width: 100%;
     border-left: 2px solid #fff;
-    animation: typing 1.5s steps(20) infinite;
+    animation: typing 2s steps(20) infinite;
 }
-
 @keyframes typing {
     100% { 
         left: 100%;
@@ -73,6 +74,9 @@ code {
     color: #F1F1F1;
 }
 
+/*
+    Animation for the road
+*/
 .infinite {
     position: relative;
     width: 100%;
