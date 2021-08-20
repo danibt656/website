@@ -11,6 +11,7 @@
             <link rel="stylesheet" href="./styles.css">
             <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tonsky/FiraCode@4/distr/fira_code.css">
         </a>
+        <script src="./index.js"></script>
     </head>
 
     <body>
@@ -24,8 +25,8 @@
                     <a style="color:#48CAB1">function</a>
                     <i style="color:#A074C4"> getContactInfo()</i> {
                 </p>
-                <pre class="contact">   <a style="color:#E24F68">const</a> email = <a style="color:orange">"danibtcontacto@gmail.com"</a>;</pre>
-                <pre class="contact">   <a style="color:#E24F68">const</a> tel_num = <a style="color:orange">"+34 644 31 73 66"</a>;</pre>
+                <pre class="contact">   <a style="color:#E24F68">const</a> email = <a id="emailTx" style="color:orange">"danibtcontacto@gmail.com"</a>; <button class="copyBtn" onclick="cpyEmail()">Copy!</button></pre>
+                <pre class="contact">   <a style="color:#E24F68">const</a> tel_num = <a id="tlfTx" style="color:orange">"+34 644 31 73 66"</a>;       <button class="copyBtn" onclick="cpyTlf()">Copy!</button></pre>
                 <p class="contact">}</p>
             </code>
         </div>
@@ -46,11 +47,11 @@
             <div class="infinite">
                 <div class="shadow"></div>
             </div>
-            <div class="box">
+            <!-- <div class="box">
                 <div class="square">
                     <button class="squareButton"></button>
                 </div>
-            </div>
+            </div> -->
         </div>
     </body>
 </html>  

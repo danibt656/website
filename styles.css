@@ -30,6 +30,42 @@ h1 {
 }
 
 /*
+    Button to copy text to clipboard
+*/
+.copyBtn {
+    font-family: 'Fira Code', monospace;
+    font-size: 20px;
+    font-weight: 500;
+    color: #F1F1F1;
+    letter-spacing: 1px;
+    padding: 13px 50px 13px;
+    outline: 0;
+    border: 2px solid #F1F1F1;
+    cursor: pointer;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0);
+}
+  
+.copyBtn::after {
+    content: "";
+    background-color: #3baa94;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    opacity: 0.4;
+    top: 7px;
+    left: 7px;
+    transition: 0.2s;
+}
+  
+.copyBtn:hover::after {
+    opacity: 0.9;
+    top: 0px;
+    left: 0px; 
+}
+
+/*
     Typing animation
 */
 .dynamic_name span{
