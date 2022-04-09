@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@700&family=Poppins:wght@300&display=swap');
+
+
+body {
+    text-align: center !important;
+    margin: auto !important;
+    margin: 2vw;
+    padding: 0;
+    display: block;
+    overflow-x: hidden;
+    background-color: #f0efee;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    color: #363636;
+    font-size: 45px;
+    font-variant: small-caps;
+    font-weight: bold;
+}
+
+#title {
+    color: #f7f7f7;
+    text-align: center !important;
+    margin: auto !important;
+    max-width: auto;
+    width: 100%;
+    background-color: rgb(20, 58, 73);
+}
+
+h1 > a {
+    color: #f7f7f7;
+    text-align: center !important;
+    margin: auto !important;
+    max-width: auto;
+    width: 100%;
+    background-color: rgb(20, 58, 73);
+}
+
+h2 {
+    color: #4e4d4d;
+    font-size: 30px;
+    font-variant: small-caps;
+    font-weight: 600;
+}
+
+h3 {
+    color: #4e4d4d;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+h4 {
+    color: #4e4d4d;
+    font-size: 19px;
+    font-weight: 100;
+    margin-top: 0;
+}
+
+/*
+    Floating boxes
+*/
+.floating-box-white {
+    text-align: center !important;
+    margin: auto !important;
+    padding: 15px;
+    background-color: rgb(253, 252, 252);
+    box-shadow: 10px 10px 5px #aaaaaa;
+    max-width: auto;
+    width: fit-content;
+}
+
+/*
+    Horizontal & vertical flexbox
+*/
+.horizontal-flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.vertical-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.align-left {
+    text-align: left;
+}
+
+/*
+    Image cropper
+*/
+.image-cropper {
+    width: 230px;
+    height: 230px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+img {
+    display: inline;
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
+}
+
+/*
+    Button to copy text to clipboard
+*/
+.copyBtn {
+    margin-top: 15px;
+    height: fit-content;
+    font-size: 20px;
+    padding: 10px;
+    color: #383535;
+    letter-spacing: 1px;
+    padding: 4;
+    outline: 0;
+    border: 2px solid #F1F1F1;
+    cursor: pointer;
+    position: relative;
+    border-radius: 15%;
+    transition: 0.3s;
+}
+  
+.copyBtn:hover {
+    color: #F1F1F1;
+    background-color: #5583c9;
+}
+
+.copyBtn:active {
+    box-shadow: 0 5px rgb(201, 201, 201);
+    transform: translateY(5px);
+}
+
+/*
+    Resume button
+*/
+.resume-btn {
+    margin-top: 15px;
+    height: fit-content;
+    font-size: 20px;
+    padding: 10px;
+    color: #F1F1F1;
+    background-color: #383535;
+    letter-spacing: 1px;
+    cursor: pointer;
+    position: relative;
+    border-radius: 5%;
+    font-variant: small-caps;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.resume-btn:hover {
+    color: #20688a;
+    background-color: #F1F1F1;
+    font-weight: bold;
+}
+
+.projects-btn {
+    margin-top: 15px;
+    height: fit-content;
+    font-size: 20px;
+    padding: 10px;
+    color: #F1F1F1;
+    background-color: #143a49;
+    letter-spacing: 1px;
+    cursor: pointer;
+    position: relative;
+    border-radius: 5%;
+    font-variant: small-caps;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.projects-btn:hover {
+    color: #20688a;
+    background-color: #F1F1F1;
+    font-weight: bold;
+}
+
+/*
+    Social media buttons
+*/
+
+/* Style all font awesome icons */
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius:10%;
+    transition: 0.3s;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+/* Facebook */
+.fa-github {
+    background: #242831;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+/*
+    Projects dashboard
+*/
+
+.floating-box-project {
+    text-align: center !important;
+    margin: auto !important;
+    padding: 15px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 10px 10px 5px #aaaaaa;
+    max-width: auto;
+    width: fit-content;
+}
+
+.project-description {
+    word-wrap: break-word;
+    width: 30vw;
+    max-width: 400px;
+}
+
+.language-icon {
+    height:auto;
+    width: 30px;
+}
+
+.project-title {
+    width: 20vw;
+    max-width: 300px;
+    font-family: 'Oxygen', sans-serif;
+    font-variant: normal;
+}
+
+.project-desc {
+    width: 30vw;
+    max-width: 400px;
+    text-align: right;
+    font-family: 'Helvetica';
+    font-style: italic;
+    font-weight: bold;
+    color: #076cbe;
+}
+
+@media only screen and (max-width: 500px) {
+    h2 {
+        color: #4e4d4d;
+        font-size: 25px;
+        font-variant: small-caps;
+        font-weight: 600;
+    }
+
+    .floating-box-white {
+        text-align: center !important;
+        margin: auto !important;
+        padding: 15px;
+        background-color: rgb(253, 252, 252);
+        box-shadow: 10px 10px 5px #aaaaaa;
+        width: 400px;
+    }
+
+    .horizontal-flex {
+        display: flex;
+        flex-direction: column;
+    }
+}
