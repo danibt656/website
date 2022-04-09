@@ -6,11 +6,13 @@
         <title>ABOUT ME | Daniel Barahona</title>
         <meta name="description" content="Simple portfolio website">
         <meta name="author" content="Daniel Barahona">
-        <a name="links">
+        <a name="links">  
+            <link rel="icon" href="./imgs/icon.png">
             <link rel="stylesheet" href="./css/styles.css">
             <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         </a>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         <script src="./js/index.js"></script>
     </head>
 
@@ -27,7 +29,8 @@
                     <div class="image-cropper">
                         <img src="imgs/profile.jpg" class="rounded" />
                     </div>
-                    <a class="resume-btn" href="./docs/CV.pdf" target="_blank">Check my Resume</a>
+                    <p><i>that's me!</i></p>
+                    <a class="resume-btn" href="./docs/CV.pdf" target="_blank">Curriculum Vitae</a>
                 </div>
                 
                 <div style="padding-left: 40px">
@@ -35,7 +38,7 @@
                 <div class="align-left">
                     <div class="vertical-flex">
                         <h3>Date of Birth</h3>
-                        <h4>03/05/2001</h4>
+                        <h4 id="age">03/05/2001 (age 20)</h4>
                         
                         <h3>Nationality</h3>
                         <h4>Spanish</h4>
@@ -55,6 +58,22 @@
                 </div>
             </div>
         </div>
+        <div style="padding-left: 50px;">
+
+        <p id="personal-desc">
+            <b>Hello, world!</b> Welcome to my personal webpage.
+            <br><br>
+            I'm Daniel, an upcoming computer engineer, currently studying at the Polythecnic Superior School
+            (<a href="https://www.uam.es/ss/Satellite/EscuelaPolitecnica/es/home.htm" target="_blank"><b>EPS-UAM, Madrid</b></a>).
+            Of course, I do many other things apart from studying. But above all, I consider myself
+            an avid reader and a learning enthusiast. I'm interested in devising a better
+            problem‑solving method for challenging tasks, and learning new technologies and tools
+            if the need arises.
+            <br><br>
+            You can find me on many social media sites, but professionally I'm the most active on Github.
+        </p>
+        <div style="padding-top: 40px"></div>
+
         <a class="projects-btn" href="./projects.html">Browse Projects</a>
     </body>
 </html>  

@@ -12,6 +12,7 @@ $(document).ready(function(){
             const img = data[i]["img"];
             const github_url = data[i]["github_url"];
             const text = data[i]["text"];
+            const date = data[i]["date"];
             
             let lang = "imgs/" + data[i]["lang"] + ".png";
 
@@ -39,6 +40,7 @@ $(document).ready(function(){
                         </div>
                         <h1 class="project-title">`+project_name+`</h1>
                         <img src="`+lang+`" class="language-icon" />
+                        <p><i>`+date+`</i></p>
                     </div>
                 </div>
             </div>

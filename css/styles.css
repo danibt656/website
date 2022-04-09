@@ -62,6 +62,14 @@ h4 {
     margin-top: 0;
 }
 
+#personal-desc {
+    text-align: center;
+    text-align: justify;
+    text-justify: inter-word;
+    width: 40vw;
+    max-width: 500px;
+}
+
 /*
     Floating boxes
 */
@@ -131,7 +139,7 @@ img {
   
 .copyBtn:hover {
     color: #F1F1F1;
-    background-color: #5583c9;
+    background-color: #076cbe;
 }
 
 .copyBtn:active {
@@ -170,7 +178,7 @@ img {
     font-size: 20px;
     padding: 10px;
     color: #F1F1F1;
-    background-color: #143a49;
+    background-color: #076cbe;
     letter-spacing: 1px;
     cursor: pointer;
     position: relative;
@@ -259,6 +267,13 @@ img {
 }
 
 @media only screen and (max-width: 500px) {
+    h1 {
+        color: #363636;
+        font-size: 25px;
+        font-variant: small-caps;
+        font-weight: bold;
+    }
+
     h2 {
         color: #4e4d4d;
         font-size: 25px;
@@ -278,5 +293,13 @@ img {
     .horizontal-flex {
         display: flex;
         flex-direction: column;
+    }
+
+    #personal-desc {
+        text-align: center;
+        text-align: justify;
+        text-justify: inter-word;
+        width: 90%;
+        max-width: 500px;
     }
 }
