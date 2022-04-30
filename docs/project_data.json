@@ -13,7 +13,7 @@
       "project_name" : "Mapache Server",
       "project_desc" : "Fully functional HTTP Web Server",
       "img" : "imgs/mapache.png",
-      "github_url" : "/website/wip.html",
+      "github_url" : "https://github.com/danibt656/Mapache",
       "date": "March 2022",
       "text" : "Implemented HTTP Requests and Responses, and their most important return codes (200, 400, 404, 500). Currently it is fully capable of displaying static HTML pages with images, GIFs, and executing Python & PHP scripts. No support for dynamic webpages nor server-side apps like Django or NodeJS, though, but still a fun project to get a bite on networking.",
       "lang": "c",
