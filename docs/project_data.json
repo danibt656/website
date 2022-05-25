@@ -1,5 +1,15 @@
 [
    {
+      "project_name" : "Mapache Server",
+      "project_desc" : "Fully functional HTTP Web Server",
+      "img" : "imgs/mapache.png",
+      "github_url" : "https://github.com/danibt656/Mapache",
+      "date": "March 2022",
+      "text" : "Implemented HTTP Requests and Responses, and their most important return codes (200, 400, 404, 500). Currently it is fully capable of displaying static HTML pages with images, GIFs, and executing Python & PHP scripts. No support for dynamic webpages nor server-side apps like Django or NodeJS, though, but still a fun project to get a bite on networking.",
+      "lang": "c",
+      "openInNewTab": 0
+   },
+   {
       "project_name" : "Hera",
       "project_desc" : "A simple, voice-directed virtual assistant",
       "img" : "imgs/hera.jpg",
@@ -8,16 +18,6 @@
       "text" : "I used the JavaScript Speech Recognition API for the browser to capture users’ voice and execute commands. For the speech processing part, I took advantage of the Artificial Intelligence Markup Language, or AIML. I also implemented it with a custom TCP Client‑Server protocol, in order to have it functioning for all devices in a private LAN. Connected with external APIs like OpenWeatherMap for retrieving the weather in any given city of the globe.",
       "lang": "python",
       "openInNewTab": 1
-   },
-   {
-      "project_name" : "Mapache Server",
-      "project_desc" : "Fully functional HTTP Web Server",
-      "img" : "imgs/mapache.png",
-      "github_url" : "/website/wip.html",
-      "date": "March 2022",
-      "text" : "Implemented HTTP Requests and Responses, and their most important return codes (200, 400, 404, 500). Currently it is fully capable of displaying static HTML pages with images, GIFs, and executing Python & PHP scripts. No support for dynamic webpages nor server-side apps like Django or NodeJS, though, but still a fun project to get a bite on networking.",
-      "lang": "c",
-      "openInNewTab": 0
    },
    {
       "project_name" : "Ares",
