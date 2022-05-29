@@ -8,11 +8,11 @@ body {
     padding: 0;
     display: block;
     overflow-x: hidden;
-    background-color: #fff3ae;
+    background-color: #f0efee;
+    height: 100vh;
     background-repeat: no-repeat;
     background-position: center;
-    /* font-family: 'Poppins', sans-serif; */
-    font-family: sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 h1 {
@@ -20,7 +20,6 @@ h1 {
     font-size: 45px;
     font-variant: small-caps;
     font-weight: bold;
-    font-family: 'Poppins', sans-serif;
 }
 
 #title {
@@ -29,15 +28,16 @@ h1 {
     margin: auto !important;
     max-width: auto;
     width: 100%;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(20, 58, 73);
 }
 
 h1 > a {
-    color: #363333;
+    color: #f7f7f7;
     text-align: center !important;
     margin: auto !important;
     max-width: auto;
     width: 100%;
+    background-color: rgb(20, 58, 73);
 }
 
 h2 {
@@ -111,15 +111,6 @@ h4 {
     border-radius: 50%;
 }
 
-.image-cropper-border {
-    width: 230px;
-    height: 230px;
-    position: relative;
-    overflow: hidden;
-    /* border-radius: 50%; */
-    border: 3px solid #626d63;
-}
-
 img {
     display: inline;
     margin: 0 auto;
@@ -148,7 +139,7 @@ img {
   
 .copyBtn:hover {
     color: #F1F1F1;
-    background-color: #6ab877;
+    background-color: #076cbe;
 }
 
 .copyBtn:active {
@@ -166,19 +157,19 @@ img {
     padding: 10px;
     color: #F1F1F1;
     background-color: #383535;
+    letter-spacing: 1px;
     cursor: pointer;
     position: relative;
-    /* border-radius: 5%; */
-    /* letter-spacing: 1px; */
-    /* font-variant: small-caps; */
+    border-radius: 5%;
+    font-variant: small-caps;
     text-decoration: none;
     transition: 0.3s;
 }
 
 .resume-btn:hover {
-    color: #519b5d;
+    color: #20688a;
     background-color: #F1F1F1;
-    /* font-weight: bold; */
+    font-weight: bold;
 }
 
 .projects-btn {
@@ -187,20 +178,20 @@ img {
     font-size: 20px;
     padding: 10px;
     color: #F1F1F1;
-    background-color: #519b5d;
+    background-color: #076cbe;
+    letter-spacing: 1px;
     cursor: pointer;
     position: relative;
-    /* border-radius: 5%; */
-    /* letter-spacing: 1px; */
-    /* font-variant: small-caps; */
+    border-radius: 5%;
+    font-variant: small-caps;
     text-decoration: none;
     transition: 0.3s;
 }
 
 .projects-btn:hover {
-    color: #519b5d;
+    color: #20688a;
     background-color: #F1F1F1;
-    /* font-weight: bold; */
+    font-weight: bold;
 }
 
 /*
@@ -272,7 +263,7 @@ img {
     font-family: 'Helvetica';
     font-style: italic;
     font-weight: bold;
-    color: #519b5d;
+    color: #076cbe;
 }
 
 @media only screen and (max-width: 500px) {
@@ -291,12 +282,12 @@ img {
     }
 
     .floating-box-white {
-        /* text-align: center !important; */
-        /* margin: auto !important; */
+        text-align: center !important;
+        margin: auto !important;
         padding: 15px;
         background-color: rgb(253, 252, 252);
         box-shadow: 10px 10px 5px #aaaaaa;
-        /* width: 400px; */
+        width: 400px;
     }
 
     .horizontal-flex {

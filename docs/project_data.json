@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 [
    {
       "project_name" : "Mapache Server",
@@ -6,9 +5,9 @@
       "img" : "imgs/mapache.png",
       "github_url" : "https://github.com/danibt656/Mapache",
       "date": "March 2022",
-      "text" : "Implemented HTTP Requests and Responses, and their most important return codes (200, 400, 404, 500). Currently it is fully capable of displaying static HTML pages with images, GIFs, and executing Python & PHP scripts. No support for dynamic webpages nor server-side apps like Django or NodeJS, though, but still a fun project to get a bite on networking.",
+      "text" : "Full support of HTTP & HTTPS protocols.<br>Generation of directory listings.<br>Admits custom configuration files that let the user tweak the server to its needs.",
       "lang": "c",
-      "openInNewTab": 0
+      "openInNewTab": 1
    },
    {
       "project_name" : "Hera",
@@ -16,7 +15,7 @@
       "img" : "imgs/hera.jpg",
       "github_url" : "https://github.com/danibt656/Hera",
       "date": "June 2021 - April 2022",
-      "text" : "I used the JavaScript Speech Recognition API for the browser to capture users’ voice and execute commands. For the speech processing part, I took advantage of the Artificial Intelligence Markup Language, or AIML. I also implemented it with a custom TCP Client‑Server protocol, in order to have it functioning for all devices in a private LAN. Connected with external APIs like OpenWeatherMap for retrieving the weather in any given city of the globe.",
+      "text" : "Homemade domestic assistant based on Alexa/Siri.<br>Custom TCP Client‑Server protocol, in order to have it functioning for all devices in a private LAN.<br>Connected with external API for retrieving the weather in any given city of the globe.",
       "lang": "python",
       "openInNewTab": 1
    },
@@ -29,39 +28,25 @@
       "text" : "Created a lexer with Flex & Bison. Learned about programming languages, x86 assembly, and also deepened my knowledge in C and the Makefiles.",
       "lang": "c",
       "openInNewTab": 1
-   }
-]
-=======
-[
+   },
    {
-      "project_name" : "Hera",
-      "project_desc" : "A simple, voice-directed virtual assistant",
-      "img" : "imgs/hera.jpg",
-      "github_url" : "https://github.com/danibt656/Hera",
-      "date": "June 2021 - April 2022",
-      "text" : "I used the JavaScript Speech Recognition API for the browser to capture users’ voice and execute commands. For the speech processing part, I took advantage of the Artificial Intelligence Markup Language, or AIML. I also implemented it with a custom TCP Client‑Server protocol, in order to have it functioning for all devices in a private LAN. Connected with external APIs like OpenWeatherMap for retrieving the weather in any given city of the globe.",
+      "project_name" : "Kedi",
+      "project_desc" : "Custom file reader & \"outputter\"",
+      "img" : "imgs/kedi.png",   
+      "github_url" : "https://github.com/danibt656/kedi",
+      "date": "April 2022",
+      "text" : "Craving for a more visual-appealing `cat` command, I embarked on designing my own.<br>It reads files requested by the user and outputs them to the standard output.",
       "lang": "python",
       "openInNewTab": 1
    },
    {
-      "project_name" : "Mapache Server",
-      "project_desc" : "Fully functional HTTP Web Server",
-      "img" : "imgs/mapache.png",
-      "github_url" : "https://github.com/danibt656/Mapache",
-      "date": "March 2022",
-      "text" : "Implemented HTTP Requests and Responses, and their most important return codes (200, 400, 404, 500). Currently it is fully capable of displaying static HTML pages with images, GIFs, and executing Python & PHP scripts. No support for dynamic webpages nor server-side apps like Django or NodeJS, though, but still a fun project to get a bite on networking.",
-      "lang": "c",
-      "openInNewTab": 0
-   },
-   {
-      "project_name" : "Ares",
-      "project_desc" : "Compiler for my own custom programming language",
-      "img" : "imgs/ares.jpg",
-      "github_url" : "https://github.com/danibt656/ares",
-      "date": "February 2022",
-      "text" : "Created a lexer with Flex & Bison. Learned about programming languages, x86 assembly, and also deepened my knowledge in C and the Makefiles.",
-      "lang": "c",
+      "project_name" : "PyGame-3D",
+      "project_desc" : "Basic 3D wireframe renderer (entirely done in a 2D engine)",
+      "img" : "imgs/py3d.png",   
+      "github_url" : "https://github.com/danibt656/pygame3d",
+      "date": "January 2022",
+      "text" : "I learned a lot about matrix operation optimization and basic 3D rendering on wireframes with this one.<br>It basically lets you visualize a cube with colored panels.",
+      "lang": "python",
       "openInNewTab": 1
    }
 ]
->>>>>>> f0ff6bd4000f90f9e9ed49bb6daf4bd7cabb4e5e

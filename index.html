@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <head>
         <title>ABOUT ME | Daniel Barahona</title>
-        <link rel="icon" href="imgs/icon.png">
+        <!-- <link rel="icon" href="imgs/icon.png"> -->
         <meta name="description" content="Simple portfolio website">
         <meta name="author" content="Daniel Barahona">
         <a name="links">  
@@ -16,9 +16,11 @@
         <script src="./js/index.js"></script>
     </head>
 
-    <body>
+    <body background="./imgs/fondo.gif">
         <h1 id="title"><a style="text-decoration:none" href="./index.html">Daniel Barahona Martín</a></h1>
-        <h2>Software Engineering / Data Science</h2>
+        <!-- <h2>Software Engineering / Data Science</h2> -->
+        <img src="imgs/madrid.jpg" alt="Madrid" style="max-height: 200px;">
+        <br>
 
         <a href="https://github.com/danibt656" target="_blank" class="fa fa-github"></a>
         <a href="https://www.linkedin.com/in/daniel-barahona-b889751aa/" target="_blank" class="fa fa-linkedin"></a>
@@ -29,8 +31,10 @@
                     <div class="image-cropper">
                         <img src="imgs/profile.jpg" class="rounded" />
                     </div>
-                    <p><i>that's me!</i></p>
-                    <a class="resume-btn" href="./docs/CV.pdf" target="_blank">Curriculum Vitae</a>
+                    <!-- <p><i>that's me (& mini-me)</i></p> -->
+                    <div class="image-cropper">
+                        <img src="imgs/minime.jpg" class="rounded" />
+                    </div>
                 </div>
                 
                 <div style="padding-left: 40px">
@@ -54,6 +58,8 @@
     
                         <h3>Address</h3>
                         <h4>Madrid, Spain</h4>
+
+                        <a class="resume-btn" href="./docs/CV.pdf" target="_blank">Check my <i>Curriculum Vitae</i></a>
                     </div>
                 </div>
             </div>
@@ -72,8 +78,21 @@
             <br><br>
             You can find me on many social media sites, but professionally I'm the most active on Github.
         </p>
+
+        <p id="personal-desc">
+            <b>Expertise</b>
+        </p>
+            <ul style="text-align:left; list-style-type:square">
+                <li style="margin-bottom: 5px">C / C++ / Python / Java</li>
+                <li style="margin-bottom: 5px">SQL, Docker, MongoDB, Django</li>
+                <li style="margin-bottom: 5px">Debian-based Linux systems</li>
+                <li style="margin-bottom: 5px">SCRUM, Traditional Methodologies</li>
+                <li style="margin-bottom: 5px">Proficient fluency in English</li>
+            </ul>
         <div style="padding-top: 40px"></div>
 
-        <a class="projects-btn" href="./projects.html">Browse Projects</a>
+        <a class="projects-btn" href="projects/">Browse Projects</a>
+
+        <p style="margin-bottom: 70px;"></p>
     </body>
 </html>  
