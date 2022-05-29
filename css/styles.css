@@ -108,7 +108,7 @@ h4 {
     height: 230px;
     position: relative;
     overflow: hidden;
-    border-radius: 50%;
+    border-radius: 20%;
 }
 
 .image-cropper-border {
