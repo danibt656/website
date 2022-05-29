@@ -78,7 +78,7 @@ h4 {
     margin: auto !important;
     padding: 15px;
     background-color: rgb(253, 252, 252);
-    box-shadow: 10px 10px 5px #aaaaaa;
+    box-shadow: 10px 10px 5px #dfd391;
     max-width: auto;
     width: fit-content;
 }
@@ -242,7 +242,7 @@ img {
     margin: auto !important;
     padding: 15px;
     background-color: rgb(255, 255, 255);
-    box-shadow: 10px 10px 5px #aaaaaa;
+    box-shadow: 10px 10px 5px #dfd391;
     max-width: auto;
     width: fit-content;
 }
