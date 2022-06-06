@@ -173,7 +173,6 @@ img {
     /* font-variant: small-caps; */
     text-decoration: none;
     transition: 0.3s;
-    font-family: 'VT323', sans-serif;
 }
 
 .resume-btn:hover {
