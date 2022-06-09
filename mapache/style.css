@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@600&display=swap');
+
+* {
+    text-align: left;
+    font-family: 'Verdana', sans-serif;
+}
+
+body {
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 59%, rgba(79,135,190,1) 100%);
+}
+
+h1 {
+    font-family: 'Fira Sans', sans-serif;
+    color: rgb(2, 59, 92);
+    font-size: 60px;
+}
+
+h3 {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: normal;
+}
+
+.align-left {
+    text-align: left;
+}
+
+.logo {
+    border: 3px solid rgb(31, 92, 128);
+    border-radius: 20px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    font-weight: bold;
+    color: blue;
+    text-decoration: none;
+}
