@@ -140,7 +140,7 @@ img {
     padding: 4;
     outline: 0;
     border: 2px solid #F1F1F1;
-    cursor: pointer;
+    cursor: default;
     position: relative;
     border-radius: 15%;
     transition: 0.3s;
