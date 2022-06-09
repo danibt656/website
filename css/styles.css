@@ -203,6 +203,42 @@ img {
     /* font-weight: bold; */
 }
 
+.mapache-btn {
+    margin-top: 15px;
+    height: fit-content;
+    font-size: 20px;
+    padding: 10px;
+    color: #F1F1F1;
+    background-color: #3a66a7;
+    cursor: pointer;
+    position: relative;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.mapache-btn:hover {
+    color: #519b5d;
+    background-color: #F1F1F1;
+}
+
+.contact-btn {
+    margin-top: 15px;
+    height: fit-content;
+    font-size: 20px;
+    padding: 10px;
+    color: #F1F1F1;
+    background-color: #c47114;
+    cursor: pointer;
+    position: relative;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.contact-btn:hover {
+    color: #519b5d;
+    background-color: #F1F1F1;
+}
+
 /*
     Social media buttons
 */

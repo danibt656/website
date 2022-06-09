@@ -34,6 +34,11 @@ h3 {
 .menu {
     display: flex;
     flex-direction: column;
+    border: 2px solid rgb(31, 92, 128);
+    background-color: rgb(232, 243, 255);
+    max-width: fit-content;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 a {
