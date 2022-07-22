@@ -122,9 +122,9 @@ h4 {
     position:relative;
 }
 
-.image-cropper-profile:hover {
+/* .image-cropper-profile:hover {
     transform: scale(1.7);
-}
+} */
 
 .image-cropper-border {
     width: 230px;
